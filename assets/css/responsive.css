@@ -1,0 +1,90 @@
+@media (min-width: 740px) {
+    .mobile-menu {
+        display: none;
+    }
+}
+
+@media (max-width: 739px) {
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .nav {
+        display: inline;
+    }
+
+    #header .nav>li {
+        display: flex;
+    }
+
+    #header .nav>li:first-child {
+        display: inline-block;
+    }
+
+
+    #header .mobile-menu {
+        height: auto;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    #header .search {
+        display: none;
+    }
+
+    #slider .place {
+        display: none;
+    }
+
+    #content .header-slogan p:last-child {
+        padding-bottom: 40px;
+    }
+
+    #content .img-slogan {
+        display: unset;
+    }
+
+    #content .img-slogan img {
+        width: auto;
+        height: auto;
+        border-radius: 5px;
+    }
+
+    #content .img-slogan .img-slogan-1 p {
+        margin-top: 20px;
+        padding-bottom: 12px
+    }
+
+    .col-space {
+        display: block;
+        margin-bottom: -4px;
+
+    }
+
+    #tuor .tuor-ticket .tuor-ticket-book {
+        width: 100%;
+        margin: 32px 0;
+    }
+
+    .col-space input {
+        width: 100%;
+        margin: 4px 0;
+    }
+
+    .sub-contact {
+        margin: 30px 0;
+    }
+
+    .btn-full {
+        width: 100%;
+        padding: 16px 0
+    }
+
+    .button-send {
+        font-size: 20px;
+    }
+
+
+}
